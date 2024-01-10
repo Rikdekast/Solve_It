@@ -1,0 +1,345 @@
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Generic - Solid State by HTML5 UP</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+</head>
+
+<body class="is-preload">
+
+	<!-- Page Wrapper -->
+	<div id="page-wrapper">
+
+		<!-- Header -->
+		<header id="header">
+			<h1><a href="index.html">Home</a></h1>
+			<nav>
+				<a href="#menu">Menu</a>
+			</nav>
+		</header>
+
+		<!-- Menu -->
+		<nav id="menu">
+			<div class="inner">
+				<h2>Menu</h2>
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="idee.html">Idee</a></li>
+					<li><a href="tekeningen.html">Technische tekening</a></li>
+					<li><a href="andere.html">andere</a></li>
+					<li><a href="eindproduct.html">Eindproduct</a></li>
+				</ul>
+				<a href="#" class="close">Close</a>
+			</div>
+		</nav>
+
+		<!-- Wrapper -->
+		<section id="wrapper">
+			<header>
+				<div class="inner">
+					<h2>andere</h2>
+				</div>
+			</header>
+
+			<!-- Content -->
+			<div class="wrapper">
+				<div class="inner">
+					<div>
+						<h3 class="major">handleiding</h3>
+						<p>Met de ene handleidingkun je het klaar maken om op te lossen en de ander het oplossen.</p>
+						<div class="col-12"><span class="image fit"><img src="images/1[1] 1.png" alt="" /></span>
+							<span class="image fit"><img src="images/2[1] 1.png" alt="" /></span>
+						</div>
+					</div>
+					<hr>
+					<meta charset="UTF-8">
+					<meta name="viewport" content="width=device-width, initial-scale=1.0">
+					<h3>stopwatch</h3>
+					<div id="timer">00:00:00</div>
+					<div id="highscore">Highscore: <span id="highscoreValue">00:00:00</span></div>
+					<button id="startButton" onclick="startTimer()">Start</button>
+					<button id="stopButton" onclick="stopTimer()">Stop</button>
+					<button id="resetButton" onclick="resetTimer()">Reset</button>
+					<button id="resetHighscoreButton" onclick="resetHighscore()">Reset Highscore</button>
+					<meta charset="UTF-8">
+					<meta name="viewport" content="width=device-width, initial-scale=1.0">
+					<title>Leaderboard</title>
+					<hr>
+					<style>
+						body {
+							text-align: center;
+							font-family: Arial, sans-serif;
+							margin: 50px;
+						}
+
+						#timer {
+							font-size: 2em;
+							margin-bottom: 20px;
+						}
+
+						button {
+							font-size: 1em;
+							padding: 10px;
+							margin: 5px;
+						}
+
+						#leaderboard {
+							max-width: 600px;
+							margin: 0 auto;
+						}
+
+						#leaderboard-list {
+							list-style: none;
+							padding: 0;
+						}
+
+						#leaderboard-list li {
+							margin-bottom: 10px;
+						}
+
+						#leaderboard-list li span {
+							margin-right: 10px;
+						}
+					</style>
+					<h3 class="major">prijs</h3>
+					<div class="table-wrapper">
+						<table>
+							<thead>
+								<tr>
+									<th>Name</th>
+									<th>stuks</th>
+									<th>Price</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>3D prints</td>
+									<td>5</td>
+									<td>1.90</td>
+								</tr>
+								<tr>
+									<td>scharnier</td>
+									<td>1</td>
+									<td>0.30</td>
+								</tr>
+								<tr>
+									<td>plaat</td>
+									<td>1</td>
+									<td>8,49</td>
+								</tr>
+							</tbody>
+							<tfoot>
+								<tr>
+									<td colspan="2"></td>
+									<td>10.69</td>
+								</tr>
+							</tfoot>
+						</table>
+					</div>
+					<div>
+						<h3 class="major">explosietekening</h3>
+						<p>Dit is een filmpje en een afbeelding van de explosietekening van heel onze box.</p>
+						<button id="startButton">Start Video</button>
+						<div style="display: flex; gap: 1rem; align-content: center; justify-content: center;">
+							<video id="myVideo" width="300" height="300" autoplay loop style="border-radius: 5px;">
+								<source src="video/videoex.mp4" type=video/mp4>
+							</video>
+
+							<div class="image fit" style="width: 300px;">
+								<div style="width: 300px; height: 300px; background-color: white; border-radius: 5px;">
+
+									<img src="images/explosi.png" alt="afbeelding variablen solid works">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div>
+						<hr>
+						<h3 class="major">variable</h3>
+						<p>Dit zijn de vijf variablen voor de spoel waaraan je moet draaien. </p>
+						<img src="images/variable.png" alt="afbeelding variablen solid works">
+					</div>
+					<hr>
+					<h3 class="major">Hoe hebben wij gestreeft naar efficiëntie en duidelijke communicatie.</h3>
+					<p>Wij hebben een goede taakverdeling gekozen. Waarbij Wixe de box maakt waar alles zich in bevind.
+						hij maakt ook de puzzels die er op komen. Ruben maakt de 2 andere puzzels. Rik maakt de website
+						en
+						het de pootjes. Om te duidelijk communiceren sturen we voldoende berichten naar elkaar hierdoor
+						weten we
+						altijd hoever we staan en wie waar mee bezig is. We hebben ook alles netjes opgeslagen in mapjes
+						in teams.</p>
+					<div class="image fit"><img src="images/Schermafbeelding 2024-01-10 101618.png"
+							alt="afbeelding variablen solid works"></div>
+				</div>
+			</div>
+		</section>
+
+
+
+		<!-- Footer -->
+		<section id="footer">
+			<div class="inner">
+				<h2 class="major">vraagje?</h2>
+				<p>Voor een vraag of opmerking kunt u hieronder een berichtje sturen. U kunt ook meer informatie vinden
+					op onze instagram pagina.</p>
+				<form method="post" action="#">
+					<div class="fields">
+						<div class="field">
+							<label for="name">Name</label>
+							<input type="text" name="name" id="name" />
+						</div>
+						<div class="field">
+							<label for="email">Email</label>
+							<input type="email" name="email" id="email" />
+						</div>
+						<div class="field">
+							<label for="message">bericht</label>
+							<textarea name="message" id="message" rows="4"></textarea>
+						</div>
+					</div>
+					<ul class="actions">
+						<li><input type="submit" value="verzend bericht" /></li>
+					</ul>
+				</form>
+				<ul class="contact">
+					<li class="icon brands fa-instagram"><a href="https://www.instagram.com/3dpuzzel8/">instagram</a>
+					</li>
+				</ul>
+				<ul class="copyright">
+					<li>Design: <a href="https://www.instagram.com/scheirsrik/">Rik Scheirs</a></li>
+					<li><a href="https://www.instagram.com/wixeguns/">Wixe Guns</a></li>
+					<li><a href="https://www.instagram.com/ruben.vanbeneden/">Ruben Van Beneden</a></li>
+				</ul>
+
+			</div>
+		</section>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			var video = document.getElementById("myVideo");
+			var startButton = document.getElementById("startButton");
+
+			startButton.addEventListener("click", function () {
+				// Check if the video is paused before trying to play
+				if (video.paused) {
+					video.play();
+				}
+			});
+		});
+	</script>
+	<script>
+		var timer;
+		var seconds = 0, minutes = 0, hours = 0;
+		var highscore = Infinity; // Initialize highscore to positive infinity
+
+		function startTimer() {
+			if (!timer) {
+				timer = setInterval(updateTimer, 1000);
+			}
+		}
+
+		function stopTimer() {
+			clearInterval(timer);
+			timer = null;
+
+			// Update highscore if the current time is less than the existing highscore
+			if (getTimeInSeconds() < highscore) {
+				highscore = getTimeInSeconds();
+				updateHighscore();
+			}
+		}
+
+		function resetTimer() {
+			stopTimer();
+			seconds = 0;
+			minutes = 0;
+			hours = 0;
+			updateDisplay();
+		}
+
+		function updateTimer() {
+			seconds++;
+			if (seconds === 60) {
+				seconds = 0;
+				minutes++;
+				if (minutes === 60) {
+					minutes = 0;
+					hours++;
+				}
+			}
+			updateDisplay();
+		}
+
+		function updateDisplay() {
+			var formattedTime = pad(hours) + ":" + pad(minutes) + ":" + pad(seconds);
+			document.getElementById("timer").innerHTML = formattedTime;
+		}
+
+		function updateHighscore() {
+			document.getElementById("highscoreValue").innerText = pad(hours) + ":" + pad(minutes) + ":" + pad(seconds);
+		}
+
+		function pad(value) {
+			return (value < 10) ? "0" + value : value;
+		}
+
+		function getTimeInSeconds() {
+			return hours * 3600 + minutes * 60 + seconds;
+		}
+		function resetHighscore() {
+			highscore = Infinity;
+			updateHighscore();
+		}
+	</script>
+	<script>
+		document.addEventListener('DOMContentLoaded', function () {
+			fetchLeaderboard();
+		});
+
+		function fetchLeaderboard() {
+			// Mock leaderboard data
+			const leaderboardData = [
+				{ player_name: 'Player 1', score: 100 },
+				{ player_name: 'Player 2', score: 90 },
+				{ player_name: 'Player 3', score: 80 },
+				// Add more entries as needed
+			];
+
+			const leaderboardList = document.getElementById('leaderboard-list');
+			leaderboardList.innerHTML = '';
+
+			leaderboardData.forEach(entry => {
+				const listItem = document.createElement('li');
+				listItem.innerHTML = `<span>${entry.player_name}</span><span>${entry.score}</span>`;
+				leaderboardList.appendChild(listItem);
+			});
+		}
+	</script>
+
+</body>
+<div id="leaderboard">
+    <h2>Leaderboard</h2>
+    <ol id="leaderboard-list"></ol>
+</div>
+
+</html>
